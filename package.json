@@ -1,0 +1,27 @@
+{
+  "name": "rayban-whatsapp-codex-bridge",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Private Ray-Ban Meta to Codex bridge using WhatsApp Web as the input channel.",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./start.ps1",
+    "status": "powershell -ExecutionPolicy Bypass -File ./status.ps1",
+    "stop": "powershell -ExecutionPolicy Bypass -File ./stop.ps1",
+    "check": "node --check bridge.mjs"
+  },
+  "keywords": [
+    "ray-ban-meta",
+    "whatsapp",
+    "codex",
+    "automation",
+    "wearables"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.58.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

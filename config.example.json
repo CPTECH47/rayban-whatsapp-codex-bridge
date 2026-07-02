@@ -1,0 +1,19 @@
+{
+  "chatPhone": "15551234567",
+  "commandPrefix": "ai",
+  "backend": "command",
+  "runner": "codex",
+  "runnerArgs": [
+    "exec",
+    "--skip-git-repo-check",
+    "{{message}}"
+  ],
+  "runnerCwd": ".",
+  "pollMs": 2500,
+  "replyMaxChars": 900,
+  "commandTimeoutMs": 120000,
+  "debug": false,
+  "allowOutgoingCommands": false,
+  "voiceFriendly": true,
+  "allowedSenderIncludes": []
+}
